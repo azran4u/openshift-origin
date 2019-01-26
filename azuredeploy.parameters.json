@@ -39,10 +39,10 @@
 			"value": "eyala"
 		},
 		"enableMetrics": {
-			"value": "true"
+			"value": "false"
 		},
 		"enableLogging": {
-			"value": "true"
+			"value": "false"
 		},
 		"sshPublicKey": {
 			"value": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAsGM5cPSVVldqg1k8js0Jxpf+eHx5gzmdx6wyd7QSSfsX4SX5a0gyj+Z4whPgvmMYSMy7E9+yxtdAXHtScImERhQLS+Rn+niteUKO8hiQUsN6Wuy5bAw3KxVlMGxWrBYtBbLq+8VPojSCi+KNe4LOH/tqz4l3ko90B6XniNCGjSwTLpuVoOYRC9riFMLYERBX2vjHsjf3BvfxCpe9P9g33juvL6ydzN8bZ9xp66fH7ojhPCofzM37gfYAcZH4xiJSRNkYUW2Zuy69BJqsVX9Sk4WqdsnMyV76YdHoqyhfaEzfKi592nuFh0FT+EpOg05W2+o4yWmP44vr0rgtJF4kVQ=="

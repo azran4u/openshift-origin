@@ -1,0 +1,12 @@
+az login
+az account list-locations
+
+az group delete --resource-group EyalAzranOpenshift --yes
+
+az group create -n EyalAzranOpenshift -l "North Europe"
+az keyvault create -n eyalazranOpenshiftKV -g EyalAzranOpenshift -l "North Europe" --enabled-for-template-deployment true
+az keyvault secret set --vault-name eyalazranOpenshiftKV -n openshiftSecret --file "C:\Users\eyala\Dropbox\Keys\openshift-private.ppk"
+az ad sp create-for-rbac --name EyalAzranOpenshiftSP --password aA123456 --role contributor --scopes /subscriptions/f030c0c1-8cc5-4ec7-bd1e-977cd5162255/resourceGroups/EyalAzranOpenshift
+
+az group deployment create --resource-group EyalAzranOpenshift --template-file azuredeploy.json --parameters @azuredeploy.parameters.json --no-wait
+az group deployment list -g EyalAzranOpenshift

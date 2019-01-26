@@ -3,7 +3,7 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"_artifactsLocation": {
-			"value": "https://raw.githubusercontent.com/Microsoft/openshift-origin/release-3.9"
+			"value": "https://raw.githubusercontent.com/Microsoft/openshift-origin/master"
 		},
 		"masterVmSize": {
 			"value": "Standard_D4s_v3"
@@ -21,22 +21,22 @@
 			"value": "changeme"
 		},
 		"masterInstanceCount": {
-			"value": 3
+			"value": 1
 		},
 		"infraInstanceCount": {
-			"value": 3
+			"value": 1
 		},
 		"nodeInstanceCount": {
-			"value": 3
+			"value": 1
 		},
 		"dataDiskSize": {
-			"value": 128
+			"value": 512
 		},
 		"adminUsername": {
-			"value": "changeme"
+			"value": "eyala"
 		},
 		"openshiftPassword": {
-			"value": "changeme"
+			"value": "eyala"
 		},
 		"enableMetrics": {
 			"value": "false"
@@ -45,25 +45,25 @@
 			"value": "false"
 		},
 		"sshPublicKey": {
-			"value": "changeme"
+			"value": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAsGM5cPSVVldqg1k8js0Jxpf+eHx5gzmdx6wyd7QSSfsX4SX5a0gyj+Z4whPgvmMYSMy7E9+yxtdAXHtScImERhQLS+Rn+niteUKO8hiQUsN6Wuy5bAw3KxVlMGxWrBYtBbLq+8VPojSCi+KNe4LOH/tqz4l3ko90B6XniNCGjSwTLpuVoOYRC9riFMLYERBX2vjHsjf3BvfxCpe9P9g33juvL6ydzN8bZ9xp66fH7ojhPCofzM37gfYAcZH4xiJSRNkYUW2Zuy69BJqsVX9Sk4WqdsnMyV76YdHoqyhfaEzfKi592nuFh0FT+EpOg05W2+o4yWmP44vr0rgtJF4kVQ=="
 		},
 		"keyVaultResourceGroup": {
-			"value": "changeme"
+			"value": "EyalAzranOpenshift"
 		},
 		"keyVaultName": {
-			"value": "changeme"
+			"value": "eyalazranOpenshiftKV"
 		},
 		"keyVaultSecret": {
-			"value": "changeme"
+			"value": "openshiftSecret"
 		},
 		"enableAzure": {
 			"value": "true"
 		},
 		"aadClientId": {
-			"value": "changeme"
+			"value": "0fcad809-a307-414b-a14f-f6039a2aab26"
 		},
 		"aadClientSecret": {
-			"value": "changeme"
+			"value": "aA123456"
 		},
 		"defaultSubDomainType": {
 			"value": "nipio"

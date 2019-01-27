@@ -3,7 +3,7 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"_artifactsLocation": {
-			"value": "https://raw.githubusercontent.com/Microsoft/openshift-origin/master"
+			"value": "https://raw.githubusercontent.com/Microsoft/openshift-origin/release-3.9"
 		},
 		"masterVmSize": {
 			"value": "Standard_D4s_v3"
@@ -60,7 +60,7 @@
 			"value": "true"
 		},
 		"aadClientId": {
-			"value": "0fcad809-a307-414b-a14f-f6039a2aab26"
+			"value": "9a9f8c5d-6092-4b7e-b39a-57c77d239d4b"
 		},
 		"aadClientSecret": {
 			"value": "aA123456"

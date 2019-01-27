@@ -3,6 +3,7 @@ az account list-locations
 
 az group delete --resource-group EyalAzranOpenshift --yes
 
+
 az group create -n EyalAzranOpenshift -l "North Europe"
 az keyvault create -n eyalazranOpenshiftKV -g EyalAzranOpenshift -l "North Europe" --enabled-for-template-deployment true
 az keyvault secret set --vault-name eyalazranOpenshiftKV -n openshiftSecret --file "C:\Users\eyala\Dropbox\Keys\openshift-private.ppk"
